@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Inter:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --color-stanford-red: #8C1515;
+  --color-stanford-red-hover: #7A1212;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FFFFFF;
+  color: #374151;
+}
