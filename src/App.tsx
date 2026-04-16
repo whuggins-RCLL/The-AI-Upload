@@ -2,6 +2,7 @@ import React from 'react';
 import { BookOpen, Headphones, Info, Archive, Bot, CheckCircle2, Landmark } from 'lucide-react';
 
 const proTips = [
+  { date: "Apr 17, 2026", title: "AI in Gmail", link: "https://drive.google.com/file/d/1MC6CGVQ6KInNlbCioSyycitNcwSq-JtH/view?usp=drive_link" },
   { date: "Apr 10, 2026", title: "Leveraging the open-source model: Gemma 4", link: "https://drive.google.com/file/d/1DW7nro67sjJTBp-UgfiKfURcE4Qc-iD2/view?usp=drive_link" },
   { date: "Apr 3, 2026", title: "Chat GPT Deep Research Feature", link: "https://drive.google.com/drive/folders/16DZ23ckPwDDj_2ABK6X5nqkZkT5V4jf4" },
   { date: "Mar 27, 2026", title: "Context Engineering", link: "https://drive.google.com/drive/folders/1PzlhwmuJaGSZYYJ6K9Z94ID-KkbGrcce" },
@@ -102,7 +103,7 @@ export default function App() {
                 <div className="w-full md:w-1/2">
                   <div className="relative w-full rounded-2xl shadow-sm overflow-hidden border border-gray-100">
                     <img 
-                      src="https://i.postimg.cc/vZDwcBS6/Screenshot-2026-04-09-at-12-09-08-PM.png" 
+                      src="https://i.postimg.cc/X7ppTpfF/Screenshot-2026-04-16-at-1-06-47-PM.png" 
                       alt="This Week's AI Upload Cover" 
                       className="w-full h-auto" 
                       onError={(e) => {
@@ -121,16 +122,16 @@ export default function App() {
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row w-full gap-3">
-                    <a href="https://drive.google.com/file/d/1DW7nro67sjJTBp-UgfiKfURcE4Qc-iD2/view?usp=drive_link" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center w-full sm:w-1/2 text-center bg-stanford-red hover:bg-stanford-red-hover text-white font-medium py-3 px-6 rounded-xl transition-all shadow-sm">
+                    <a href="https://drive.google.com/file/d/1MC6CGVQ6KInNlbCioSyycitNcwSq-JtH/view?usp=drive_link" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center w-full sm:w-1/2 text-center bg-stanford-red hover:bg-stanford-red-hover text-white font-medium py-3 px-6 rounded-xl transition-all shadow-sm">
                       <BookOpen className="mr-2 h-5 w-5" /> Read Issue
                     </a>
-                    <a href="https://drive.google.com/file/d/1wCqkulOQHTURqgpYy-AsnlPEtgpAgFec/view?usp=sharing" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center w-full sm:w-1/2 text-center bg-white border border-gray-200 hover:bg-gray-50 text-gray-700 font-medium py-3 px-6 rounded-xl transition-all shadow-sm">
+                    <a href="https://drive.google.com/file/d/19GbIf9L-mRdNjwbGGPyFBSQIrfAromtZ/view?usp=drive_link" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center w-full sm:w-1/2 text-center bg-white border border-gray-200 hover:bg-gray-50 text-gray-700 font-medium py-3 px-6 rounded-xl transition-all shadow-sm">
                       <Headphones className="mr-2 h-5 w-5 text-gray-500" /> Podcast Edition
                     </a>
                   </div>
                   {/* Embedded Video */}
                   <div className="w-full h-64 sm:h-80 rounded-2xl overflow-hidden shadow-inner bg-gray-50 border border-gray-100">
-                    <iframe src="https://drive.google.com/file/d/1uR25UWtbGVqXYZvdp2ZtHQTbzGjQ8c8_/preview" width="100%" height="100%" allow="autoplay" allowFullScreen></iframe>
+                    <iframe src="https://drive.google.com/file/d/1tRpubCjf64dN1Ouvy4_Q4t67lUCeSYRy/preview" width="100%" height="100%" allow="autoplay" allowFullScreen></iframe>
                   </div>
                 </div>
               </div>
