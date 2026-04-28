@@ -1,5 +1,6 @@
 import React from 'react';
 import { BookOpen, Headphones, Info, Archive, Bot, CheckCircle2, Landmark } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 const proTips = [
   { date: "Apr 17, 2026", title: "AI in Gmail", link: "https://drive.google.com/file/d/1MC6CGVQ6KInNlbCioSyycitNcwSq-JtH/view?usp=drive_link" },
@@ -208,6 +209,7 @@ export default function App() {
 
         </main>
       </div>
+      <Analytics />
     </div>
   );
 }
