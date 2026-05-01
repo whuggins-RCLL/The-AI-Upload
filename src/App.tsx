@@ -90,10 +90,10 @@ export default function App() {
             </div>
           </section>
 
-          {/* Latest Issue Section */}
+          {/* Latest Edition Section */}
           <section className="mb-24">
             <div className="flex flex-col items-center mb-10">
-              <h2 className="font-serif text-3xl font-semibold text-gray-900">Latest Issue</h2>
+              <h2 className="font-serif text-3xl font-semibold text-gray-900">Latest Edition</h2>
               <div className="w-12 h-1 bg-stanford-red mt-4 rounded-full"></div>
             </div>
             
