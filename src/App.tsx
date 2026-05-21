@@ -103,7 +103,7 @@ export default function App() {
                 <div className="w-full md:w-1/2">
                   <div className="relative w-full rounded-2xl shadow-sm overflow-hidden border border-gray-100">
                     <img 
-                      src="https://i.postimg.cc/1XQFkNHs/Screenshot-2026-05-07-at-1-49-25-PM.png" 
+                      src="https://i.postimg.cc/nLV3V5B4/Screenshot-2026-05-21-at-4-15-10-PM.png" 
                       alt="This Week's AI Upload Cover" 
                       className="w-full h-auto" 
                       onError={(e) => {
@@ -122,16 +122,16 @@ export default function App() {
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row w-full gap-3">
-                    <a href="https://drive.google.com/file/d/1Cb5gswJaSN7JuGoRKlYElqui4J6c2Z7H/view?usp=drive_link" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center w-full sm:w-1/2 text-center bg-stanford-red hover:bg-stanford-red-hover text-white font-medium py-3 px-6 rounded-xl transition-all shadow-sm">
+                    <a href="https://drive.google.com/file/d/1XGtD0ZMEgzej2j0X6oxyuiOAzXF4deH3/view?usp=drive_link" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center w-full sm:w-1/2 text-center bg-stanford-red hover:bg-stanford-red-hover text-white font-medium py-3 px-6 rounded-xl transition-all shadow-sm">
                       <BookOpen className="mr-2 h-5 w-5" /> Read Issue
                     </a>
-                    <a href="https://drive.google.com/file/d/1sY1vO469u4sVFb5OkSv8zwL4k72UJJYU/view?usp=drive_link" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center w-full sm:w-1/2 text-center bg-white border border-gray-200 hover:bg-gray-50 text-gray-700 font-medium py-3 px-6 rounded-xl transition-all shadow-sm">
+                    <a href="https://drive.google.com/file/d/1goEERpEGOZUa0XYqXJSj292JQ9C6odyq/view?usp=drive_link" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center w-full sm:w-1/2 text-center bg-white border border-gray-200 hover:bg-gray-50 text-gray-700 font-medium py-3 px-6 rounded-xl transition-all shadow-sm">
                       <Headphones className="mr-2 h-5 w-5 text-gray-500" /> Podcast Edition
                     </a>
                   </div>
                   {/* Embedded Video */}
                   <div className="w-full h-64 sm:h-80 rounded-2xl overflow-hidden shadow-inner bg-gray-50 border border-gray-100">
-                    <iframe src="https://drive.google.com/file/d/1JOb-47Yj4ZDpPhFWvUH3EgwuGuI4WR9k/preview" width="100%" height="100%" allow="autoplay" allowFullScreen></iframe>
+                    <iframe src="https://drive.google.com/file/d/1AAWRSBIiy2A93vYF4wH8tSoBRha4mEar/preview" width="100%" height="100%" allow="autoplay" allowFullScreen></iframe>
                   </div>
                 </div>
               </div>
