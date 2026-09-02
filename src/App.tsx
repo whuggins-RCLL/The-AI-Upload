@@ -1,5 +1,7 @@
 import React from 'react';
 import { BookOpen, Headphones, Info, Archive, Bot, CheckCircle2, Landmark } from 'lucide-react';
+import { SiteHeader } from './components/SiteHeader';
+import { SiteFooter } from './components/SiteFooter';
 
 const proTips = [
   { date: "Apr 17, 2026", title: "AI in Gmail", link: "https://drive.google.com/file/d/1MC6CGVQ6KInNlbCioSyycitNcwSq-JtH/view?usp=drive_link" },
@@ -35,6 +37,8 @@ const aiTools = [
 export default function App() {
   return (
     <div className="antialiased min-h-screen bg-white text-gray-700 font-sans">
+      <SiteHeader />
+
       {/* Hero Section */}
       <div className="flex justify-center w-full">
         <div 
@@ -208,6 +212,8 @@ export default function App() {
 
         </main>
       </div>
+
+      <SiteFooter />
     </div>
   );
 }
